@@ -46,6 +46,9 @@ Optional arguments:
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
+## Support me
+
+[I would be happy to get a pizza....](https://www.buymeacoffee.com/IntelliSoft)
 
 
 
