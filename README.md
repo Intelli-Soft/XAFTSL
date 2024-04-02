@@ -1,6 +1,6 @@
 
 # XAFTSL
-Welcome to XAFTSL => XAF Type Safe Localization
+Welcome to XAFTSL => ***XAF*** ***T***ype ***S***afe ***L***ocalization
 
 This software can help to create a type safe way for using custom string localization in DevExpress XAF.
 
