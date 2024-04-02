@@ -22,17 +22,17 @@ XAFSTL.exe [options]
 
  /?               - Show the help screen.
  /n:namespace     - Namespace of the generated code.
- /d:destination    - Filename of the generated code.
- /x:xafml file     - Filename of the xafml file.
- /l:language       - Language of the generated code.     Possible values: 'C', 'VB'
- /t:textoptions    - Text options of the generated code. Possible values: 'None', 'FirstToUpper', 'ToLower', 'ToUpper'
- /f:framework      - Framework of the generated code.    Possible values: 'DotNetFive', 'DotNetSixPlus'
+ /d:destination   - Filename of the generated code.
+ /x:xafml file    - Filename of the xafml file.
+ /l:language      - Language of the generated code.     Possible values: 'C', 'VB'
+ /t:textoptions   - Text options of the generated code. Possible values: 'None', 'FirstToUpper', 'ToLower', 'ToUpper'
+ /f:framework     - Framework of the generated code.    Possible values: 'DotNetFive', 'DotNetSixPlus'
 
 All of the above arguments are needed to execute the application correctly.
 Optional arguments:
 
- /pre:prefix       - Prefix of the generated code.
- /post:suffix      - Suffix of the generated code.
+ /pre:prefix      - Prefix of the generated code.
+ /post:suffix     - Suffix of the generated code.
 ```
 
 
