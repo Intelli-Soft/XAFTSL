@@ -15,22 +15,28 @@ namespace XAFTSL
         public static void ShowToConsole()
         {
             Console.WriteLine();
-            Console.WriteLine(
-                @"//|------------------------------------------------------------------------------------------------------------------|");
-            Console.WriteLine(
-                @"//| This software generates type safe localization code             ╭━━┳━╮╱╭┳━━━━┳━━━┳╮╱╱╭╮╱╱╭┳━━━┳━━━┳━━━┳━━━━╮     |");
-            Console.WriteLine(
-                @"//|                                                                 ╰┫┣┫┃╰╮┃┃╭╮╭╮┃╭━━┫┃╱╱┃┃╱╱┃┃╭━╮┃╭━╮┃╭━━┫╭╮╭╮┃     |");
-            Console.WriteLine(
-                @"//| This software comes without warranty                            ╱┃┃┃╭╮╰╯┣╯┃┃╰┫╰━━┫┃╱╱┃┃╱╱┃┃╰━━┫┃╱┃┃╰━━╋╯┃┃╰╯     |");
-            Console.WriteLine(
-                @"//| (c) by Intell!Soft / Harald Bacik, All rights reserved.         ╱┃┃┃┃╰╮┃┃╱┃┃╱┃╭━━┫┃╱╭┫┃╱╭╋┻━━╮┃┃╱┃┃╭━━╯╱┃┃       |");
-            Console.WriteLine(
-                $"//| Created: {DateTime.Now.ToString()}                                    ╭┫┣┫┃╱┃┃┃╱┃┃╱┃╰━━┫╰━╯┃╰━╯┣┫╰━╯┃╰━╯┃┃╱╱╱╱┃┃       |");
-            Console.WriteLine(
-                @"//|                                                                 ╰━━┻╯╱╰━╯╱╰╯╱╰━━━┻━━━┻━━━┻┻━━━┻━━━┻╯╱╱╱╱╰╯       |");
-            Console.WriteLine(
-                "//|------------------------------------------------------------------------------------------------------------------|");
+            Console.WriteLine(Encode.Text(
+                @"//|-----------------------------------------------------------|"));
+            Console.WriteLine(Encode.Text(
+                @"//| This software generates type safe localization code       |"));
+            Console.WriteLine(Encode.Text(
+                @"//|                                                           |"));
+            Console.WriteLine(Encode.Text(
+                @"//| This software comes without warranty                      |"));
+            Console.WriteLine(Encode.Text(
+                @"//| (c) by Intell!Soft / Harald Bacik, All rights reserved.   |"));
+            Console.WriteLine(Encode.Text(
+                $"//| Created: {DateTime.Now.ToString()}                              |"));
+            Console.WriteLine(Encode.Text(
+                @"//|                                                           |"));
+            Console.WriteLine(Encode.Text(
+                @"//| Thank you for using my XAFTSL software.                   |"));
+            Console.WriteLine(Encode.Text(
+                @"//| The project is hosted on GitHub:                          |"));
+            Console.WriteLine(Encode.Text(
+                @"//| https://github.com/Intelli-Soft/XAFTSL                    |"));
+            Console.WriteLine(Encode.Text(
+                @"//|-----------------------------------------------------------|"));
         }
     }
 }
