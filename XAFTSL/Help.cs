@@ -11,7 +11,7 @@ namespace XAFTSL
         static internal void Show()
         {
             Console.WriteLine("Usage:");
-            Console.WriteLine("  XAFCodeGenCustomLocalization.exe [options]");
+            Console.WriteLine("  XAFSTL.exe [options]");
             Console.WriteLine(string.Empty);
             Console.WriteLine("   /?               - Show this help screen.");
             Console.WriteLine("   /n:namespace     - Namespace of the generated code.");
